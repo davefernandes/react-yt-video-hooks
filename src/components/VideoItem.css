@@ -1,0 +1,19 @@
+.video-item {
+  display: flex !important;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+.video-item .header {
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.video-item .description {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.video-item.item img {
+  max-width: 180px;
+}
